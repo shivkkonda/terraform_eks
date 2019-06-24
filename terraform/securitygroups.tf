@@ -10,7 +10,7 @@ resource "aws_security_group" "telepathy-cluster" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
-  tags {
+  tags = {
     Name = "terraform-eks-telepathy"
   }
 }

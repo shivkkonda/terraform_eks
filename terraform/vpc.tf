@@ -1,6 +1,6 @@
 module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
-
+  version = "~> 1.6.0"
   name = "vpc-module-telepathy"
   cidr = "10.0.0.0/16"
 
